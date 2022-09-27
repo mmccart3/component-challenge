@@ -1,38 +1,125 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+h1 {
+  font-size: 3em;
+  margin: 0em;
+}
+
+p {
+  margin: 0em;
+  font-size: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.udemyCard {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  padding-right: 20px;
+}
+
+.courseTitle {
+ font-size: 2em;
+ font-weight: bold;
+}
+
+.presenterTitle {
+  font-size: 1.4em;
+  color:gray
+}
+
+.score {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: gold;
+}
+
+.stars {
+  }
+
+.views {
+  font-size: 2.0em;
+  color:grey;
+}
+
+.price {
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+.oldPrice {
+  font-size: 2.0em;
+  text-decoration: line-through;
+  color:grey;
+}
+
+.bestseller {
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #eceb98;
+  width:5em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.airbnb {
+  font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.abnbh1 {
+  font-size: 1.7em;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.abnbcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.airbnbcard {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 22vw;
 }
 
-.App-link {
-  color: #61dafb;
+.cardImage {
+  border-radius: 5%;
+  margin: 10px;
+  width: 20vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dot {
+  font-weight: bold;
+}
+
+.line1 {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 90%;
+}
+
+.leftline1 {
+  display: flex;
+  flex-direction: row;
+  width:60%;
+  align-items: flex-start;
+}
+
+.rightline1 {
+  display: flex;
+  flex-direction: row;
+  width:40%;
+  justify-content: right;
+  font-weight: 500;
+  color: #4a4a4a;
+}
+
+.desc {
+  margin-left: 10px;
+  color:darkgray;
 }
